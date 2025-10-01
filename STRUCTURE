@@ -1,0 +1,28 @@
+NeatSeed-Backend/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   │   ├── truck.py
+│   │   └── location.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── trucks.py
+│   │   └── users.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── location_service.py
+│   │   ├── notification_service.py
+│   │   └── proximity_service.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   └── utils/
+│       ├── __init__.py
+│       └── distance_calculator.py
+├── requirements.txt
+├── .env
+└── firebase-service-account.json
